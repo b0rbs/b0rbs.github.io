@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="style.css">
+<!-- Link de libreria de botones -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+<title>La Rocola de Borbs</title>
+<body>
+<div class="header">
+  <h3>La Rocola de Borbs</h3>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+
+    <!-- Template de Articulo -->
+    <div class="card">
+      <h2>Artista - Album</h2>
+      <h5>[Mes] [Dia], [Año]</h5>
+      <div class="fakeimg" style="height:250px;">Una imagen deberia de ir aqui...</div>     
+      <b><p>El texto debe de ir aqui...</p></b>
+      <p>Aqui deberia de venir una descripción del disco, tal vez dando una opinión más detallada.</p>
+    </div>
+
+    <!-- Articulos Bien Escritos -->
+    <div class="card">
+      <h2>The Strokes - The New Abnormal </h2>
+      <h5>Marzo 30, 2022</h5>
+        <img src="https://media.pitchfork.com/photos/5e8ca8479a08f300084d48d7/16:9/w_1280,c_limit/The%20New%20Abnormal_The%20Strokes.jpg" alt="The New Abnormal">
+      <p> <b>El ultimo esfuerzo para una banda sin orientación...</b></p>
+      <p>En el año 2001, The Strokes redefinieron el rock en su imagen, digo redefinir con una pizca de sal, puesto que 
+        la imagen que ellos definieron estaba puesta en influencias que se pueden observar desde los años sesenta, el 
+        garage rock era un genero que estaba bien definido, pero no bien apreciado, ellos en si popularizaron este genero 
+        y dieron un trabajo seminal, pero desde ese entonces la banda no ha progresado tanto. Con The New Abnormal siento que 
+        han llegado a un punto de madurez musical, .</p>
+        <div class="music-container" id="music-container">
+          <div class="music-info">
+            <h4 id="title"></h4>
+            <div class="progress-container" id="progress-container">
+              <div class="progress" id="progress"></div>
+            </div>
+          </div>
+
+          <audio src="music/atthedoor.mp3" id="audio"></audio>
+
+          <div class="img-container">
+            <img src="images/atthedoor.png" alt="music-cover" id="cover" />
+          </div>
+          <div class="navigation">
+            <button id="prev" class="action-btn">
+              <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+              <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+              <i class="fas fa-forward"></i>
+            </button>
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+    
+      </div>
+    
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Sobre Sobre el Sitio.</h2>
+      
+      <p>Este sitio consiste en opiniones personales que tengo sobre discos en especifico, algunas buenas y algunas malas, pero siempre mias...</p>
+    </div>
+
+  </div>
+  
+</div>
+
+
+</body>
+</html>
